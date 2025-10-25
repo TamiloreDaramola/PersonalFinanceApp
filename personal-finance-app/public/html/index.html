@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TammySaves</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #334e68;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            width: 100%;
+            padding: 20px 0;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #102a43;
+            text-align: center;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+            margin-top: 100px; /* Add margin to account for the fixed header */
+        }
+        h1 {
+            font-size: 2.8rem;
+            color: #102a43;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #5a7b9f;
+            line-height: 1.6;
+        }
+        .cta-buttons {
+            margin-top: 30px;
+        }
+        .cta-buttons a {
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007bff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin: 0 10px;
+        }
+        .cta-buttons a:hover {
+            background-color: #0056b3;
+        }
+        .cta-buttons a:last-child {
+            background-color: #627d98;
+        }
+        .cta-buttons a:last-child:hover {
+            background-color: #486581;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">TammySaves</div>
+    </header>
+    <div class="container">
+        <h1>Take Control of Your Finances </h1>
+        <p>
+            Start your journey to financial freedom. Track your spending, manage your budget, and build wealth with our easy-to-use personal finance application.
+        </p>
+        <div class="cta-buttons">
+            <a href="/html/login.html">Login</a>
+            <a href="/html/register.html">Get Started</a>
+        </div>
+    </div>
+</body>
+</html>
+<!-- Username is Lashe Password is 123-->
